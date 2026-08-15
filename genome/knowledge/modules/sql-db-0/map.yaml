@@ -1,6 +1,15 @@
 # 模块地图 L1:这个模块怎么跑、依赖谁。
 id: sql-db-0
+lang: unknown
 entrypoints: []
 depends_on: []
-features: []
+doc: genome/knowledge/modules/sql-db-0/overview.md
+confidence: 0.95
+features:
+- id: repo-scaffold
+  summary: 仓库脚手架占位,唯一文件是 README.md,尚无任何业务代码
+  scope:
+  - repos/sql-db-0/README.md
+  no_card: 仓库内没有任何源码、测试或 fix/revert 提交历史可提炼承重不变量,写卡片只会是编造;等业务代码落地后重新跑 knowledge-init
+    再补功能点卡片。
 submaps: []
